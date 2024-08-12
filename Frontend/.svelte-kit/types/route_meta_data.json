@@ -1,0 +1,61 @@
+{
+	"/": [
+		"src/routes/+layout.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/admin": [
+		"src/routes/admin/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/api/v1/user": [
+		"src/routes/api/v1/user/+server.ts"
+	],
+	"/auth/forgot": [
+		"src/routes/auth/forgot/+server.ts"
+	],
+	"/auth/google": [
+		"src/routes/auth/google/+server.ts"
+	],
+	"/auth/reset": [
+		"src/routes/auth/reset/+server.ts"
+	],
+	"/auth/reset/[token]": [
+		"src/routes/auth/reset/[token]/+page.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/auth/[slug]": [
+		"src/routes/auth/[slug]/+server.ts"
+	],
+	"/blog": [
+		"src/routes/blog/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/blog/create": [
+		"src/routes/blog/create/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/forgot": [
+		"src/routes/+layout.server.ts"
+	],
+	"/info": [
+		"src/routes/+layout.server.ts"
+	],
+	"/login": [
+		"src/routes/+layout.server.ts"
+	],
+	"/profile": [
+		"src/routes/profile/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/register": [
+		"src/routes/register/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/teachers": [
+		"src/routes/teachers/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/translation": [
+		"src/routes/+layout.server.ts"
+	]
+}
